@@ -3,11 +3,11 @@
 # Для N = 5: 1, -3, 9, -27, 81
 
 # Вариант 1:
-from random import randint
+# from random import randint
 
-N = int(input('Введите число N: '))
-for i in range(N):
-    print (randint(-100, 100), end=" ")
+# N = int(input('Введите число N: '))
+# for i in range(N):
+#     print (randint(-100, 100), end=" ")
 
 # Вариант 2:
 # N = int(input('Введите число N: '))
