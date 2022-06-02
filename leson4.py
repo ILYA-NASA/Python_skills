@@ -33,12 +33,12 @@
 # print(my_list_1)
 
 # # Решение 2 (со строками)
-my_list_1 = [1, 1, 1, 2, 2, 2, 3, 4]
-my_list_2 = [2, 4, 5]
-for i in my_list_2:
-    while i in my_list_1:
-        my_list_1.remove(i)
-print(my_list_1)
+# my_list_1 = [1, 1, 1, 2, 2, 2, 3, 4]
+# my_list_2 = [2, 4, 5]
+# for i in my_list_2:
+#     while i in my_list_1:
+#         my_list_1.remove(i)
+# print(my_list_1)
 
 
 # 2: Дана дата в формате dd.mm.yyyy, например: 02.11.2013.
@@ -105,8 +105,16 @@ print(my_list_1)
 # В этом случае ответ будет:
 # [5, 8]
 
-# my_list_1 = [12, 2, 2, 2, 5, 12, 8, 2, 12]
+my_list_1 = [12, 2, 2, 2, 5, 12, 8, 2, 12]
+# # Мое решение:
 # for i in my_list_1:
 #     while i in my_list_1:
 #         my_list_1.remove(i)
 # print(my_list_1)
+
+# # Решение лектора:
+result = []
+for num in my_list_1:
+    if my_list_1.count(num) == 1:
+        result.append(num)
+print(result)
