@@ -26,11 +26,13 @@ def request_user(f):
     count = 1
     while f > 0:
         # if user == True:
-        #     bot() 
-        user_request = int(input(f'Игрок {int(user)+1} введите количество конфет (от 1 до 28): '))
+        #     bot()
+        user_request = int(
+            input(f'Игрок {int(user)+1} введите количество конфет (от 1 до 28): '))
         while user_request > 28:
             print(f'Игрок {int(user)+1} повторите ввод!')
-            user_request = int(input(f'Игрок {int(user)+1} введите количество конфет (от 1 до 28): '))
+            user_request = int(
+                input(f'Игрок {int(user)+1} введите количество конфет (от 1 до 28): '))
         f -= user_request
         print(f)
         count += 1
@@ -38,8 +40,9 @@ def request_user(f):
         if f == 0:
             print(f'Игрок {int(user)+1} победил!')
 
+
 def bot(f):
-    return f % 29
+    return (f % 29) - 1
 
 
 full = 100
