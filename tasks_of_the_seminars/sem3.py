@@ -60,7 +60,7 @@ for i in range(-n,n+1):
 print(list)
 
 res = 1
-with open('file.txt','w') as data:
+with open('../homework_tasks/file.txt', 'w') as data:
     data.write('2 \n')
     data.write('1 \n')
     data.write('3 \n')
