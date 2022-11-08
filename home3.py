@@ -30,8 +30,8 @@ my_list = [1.1, 1.2, 3.1, 5, 10.01]
 min = 1
 max = 0
 for i in my_list:
-    if (i - int(i)) <= min:
+    if (i - int(i)) <= min and (i - int(i)) != 0:
         min = i - int(i)
     if (i - int(i)) >= max:
         max = i - int(i)  
-print(max-min)
+print(round((max-min),2))
