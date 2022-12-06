@@ -1,10 +1,11 @@
-# Здесь хранятся упражнения двух курсов:
+# Здесь хранятся упражнения следующих курсов:
 
-1. Курса "Знакомство с языком Python" (программа "Разработчик"):
+1. Курса "Знакомство с языком Python" программы "Разработчик":
    - [лекции](https://github.com/ILYA-NASA/Hello_Python/tree/main/examples_from_lecture);
    - [семинары](https://github.com/ILYA-NASA/Hello_Python/tree/main/tasks_of_the_seminars);
    - [практические задания](https://github.com/ILYA-NASA/Hello_Python/tree/main/homework_tasks).
-2. Допролнительного [курса](https://github.com/ILYA-NASA/Hello_Python/tree/main/tasks_by_supplem_course) "[Основы языка Python](https://github.com/ILYA-NASA/Hello_Python/files/9961426/Python.GB.txt)" 
+2. Допролнительного [курса](https://github.com/ILYA-NASA/Hello_Python/tree/main/tasks_by_supplem_course) "[Основы языка Python](https://github.com/ILYA-NASA/Hello_Python/files/9961426/Python.GB.txt)". 
+3. [Сервер сокетов и клиент](https://github.com/ILYA-NASA/hello_python/tree/main/Socket_program), [созданные](https://realpython.com/python-sockets/#echo-client-and-server) на курсе "Компьютерные сети".
 
 ![image](https://user-images.githubusercontent.com/99810114/200759981-4b954006-f70d-4d97-8d93-8f8817e0794e.png)  
 
